@@ -63,6 +63,9 @@ li{
     border: none;
     color: white;
 }
+.nav-button:hover{
+    background-color: brown;
+}
 .night-live{
     position: relative;
     top: -600px;
@@ -342,3 +345,83 @@ li{
     left: 300px;
     top: 100px;
 }
+#input-feild{
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.talk-button{
+    width: 250px;
+    font-size: 18px;
+    padding: 15px;
+    background-color: red;
+    border-radius: 35px;
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    color: white;
+}
+.talk-button:hover{
+    background-color: brown;
+}
+
+/* contact link */
+.contact-link{
+    width: 100%;
+    height: 100px;
+    background-color:orangered;
+}
+.contact-link-icon{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+.fa-brands{
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.fa-brands:hover{
+    background-color: yellow;
+}
+/* footer section */
+.footer-container{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-link{
+    color: white;
+    
+}
+.footer-link-logo{
+    font-size: 20px;
+    display: flex;
+   justify-content: space-around; 
+   gap: 10px;
+}
+.footer-last{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    font-size: 16px;
+}
+.footer-last:hover{
+    color: brown;
+}
+
+
